@@ -5,9 +5,9 @@ exports.addFriend = function(request, response) {
 	var description = request.query.description;
 
 	var newItem = {
-		name,
-		description,
-		imageURL: "https://picsum.photos/400/400"
+		"name": name,
+		"description": description,
+		"imageURL": "https://picsum.photos/400/400"
 	};
 
 	console.log(newItem);
